@@ -3,7 +3,7 @@ package mrperfect.example.newsapp.Model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-class Sourse {
+class Source {
     @SerializedName("id")
     @Expose
     private String id;

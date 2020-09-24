@@ -5,77 +5,77 @@ import com.google.gson.annotations.SerializedName;
 
 class Articles {
 
-    @SerializedName("Sourse")
+    @SerializedName("Source")
     @Expose
-    private String sourse;
+    private String source;
 
     @SerializedName("author")
     @Expose
-    private Sourse author;
+    private Source author;
 
     @SerializedName("title")
     @Expose
-    private Sourse title;
+    private Source title;
 
 
     @SerializedName("description")
     @Expose
-    private Sourse description;
+    private Source description;
 
     @SerializedName("urlToImage")
     @Expose
-    private Sourse urlToImage;
+    private Source urlToImage;
 
     @SerializedName("publishedAt")
     @Expose
-    private Sourse publishedAt;
+    private Source publishedAt;
 
 
     public String getSourse() {
-        return sourse;
+        return source;
     }
 
     public void setSourse(String sourse) {
-        this.sourse = sourse;
+        this.source = sourse;
     }
 
-    public Sourse getAuthor() {
+    public Source getAuthor() {
         return author;
     }
 
-    public void setAuthor(Sourse author) {
+    public void setAuthor(Source author) {
         this.author = author;
     }
 
-    public Sourse getTitle() {
+    public Source getTitle() {
         return title;
     }
 
-    public void setTitle(Sourse title) {
+    public void setTitle(Source title) {
         this.title = title;
     }
 
-    public Sourse getDescription() {
+    public Source getDescription() {
         return description;
     }
 
-    public void setDescription(Sourse description) {
+    public void setDescription(Source description) {
         this.description = description;
     }
 
-    public Sourse getUrlToImage() {
+    public Source getUrlToImage() {
         return urlToImage;
     }
 
-    public void setUrlToImage(Sourse urlToImage) {
+    public void setUrlToImage(Source urlToImage) {
         this.urlToImage = urlToImage;
     }
 
-    public Sourse getPublishedAt() {
+    public Source getPublishedAt() {
         return publishedAt;
     }
 
-    public void setPublishedAt(Sourse publishedAt) {
+    public void setPublishedAt(Source publishedAt) {
         this.publishedAt = publishedAt;
     }
 }
