@@ -26,6 +26,8 @@
         android:layout_margin="10dp"
         android:columnCount="2"
         android:rowCount="2"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:background="@drawable/black_background"
        >
 
