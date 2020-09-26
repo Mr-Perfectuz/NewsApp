@@ -20,6 +20,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+
                 android:id="@+id/image"/>
 
             <ImageView
@@ -39,6 +41,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
                 android:orientation="horizontal">
 
                 <TextView
@@ -47,13 +50,15 @@
                     android:text=" Source"
                     android:textSize="20dp"
                     android:fontFamily="@font/g_bold"
+                    android:ems="15"
                     android:textColor="@color/white"
                     android:id="@+id/tvSource"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="This is the text"
+                    android:gravity="right"
                     android:textSize="20dp"
                     android:fontFamily="@font/g_light"
                     android:textColor="@color/white"
